@@ -59,7 +59,7 @@ setup(
     ],
 
     install_requires=[
-        "distribute",
+        "setuptools",
     ],
 
     packages=PKGS,
