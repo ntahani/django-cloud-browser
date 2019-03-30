@@ -14,6 +14,7 @@
 {% block extra_head %}{% endblock %}
 </head>
 <body>
+{% include "cloud_browser/header.html" %}
 {% block body %}
   {% block menu %}{% endblock %}
   <div id="cloud-browser-breadcrumbs" class="cloud-browser-defaults">
@@ -23,5 +24,6 @@
     {% block cloud_browser_content %}{% endblock %}
   </div>
 {% endblock %}
+{% include "cloud_browser/footer.html" %}
 </body>
 </html>
